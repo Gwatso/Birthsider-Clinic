@@ -80,7 +80,17 @@ The site has no server. When a visitor presses **Send on WhatsApp**, WhatsApp op
 
 ## Hosting
 
-Any static host works, e.g. GitHub Pages, Netlify or Cloudflare Pages. Point the domain at it, then set `[SITE_URL]`.
+The site deploys to GitHub Pages automatically through `.github/workflows/pages.yml` on every push to `claude/intelligent-allen-898oki`.
+
+Preview URL: **https://gwatso.github.io/Birthsider-Clinic/**
+
+One-time setup (repo owner):
+
+1. The repo is private. GitHub Pages on a private repo needs a paid plan (GitHub Pro or higher). If you're on the free plan, make the repo public first: **Settings → General → Danger Zone → Change visibility**.
+2. Go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
+3. Go to **Actions → Deploy to GitHub Pages → Run workflow**, or push any commit.
+
+To use your own domain later, add it under **Settings → Pages → Custom domain**, then set `[SITE_URL]`.
 
 ## Accessibility notes
 

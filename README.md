@@ -84,11 +84,7 @@ The site deploys to GitHub Pages automatically through `.github/workflows/pages.
 
 Preview URL: **https://gwatso.github.io/Birthsider-Clinic/**
 
-One-time setup (repo owner):
-
-1. The repo is private. GitHub Pages on a private repo needs a paid plan (GitHub Pro or higher). If you're on the free plan, make the repo public first: **Settings → General → Danger Zone → Change visibility**.
-2. Go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
-3. Go to **Actions → Deploy to GitHub Pages → Run workflow**, or push any commit.
+One-time setup (repo owner): go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**. After that, every push publishes the site. You can also run it by hand from **Actions → Deploy to GitHub Pages → Run workflow**.
 
 To use your own domain later, add it under **Settings → Pages → Custom domain**, then set `[SITE_URL]`.
 

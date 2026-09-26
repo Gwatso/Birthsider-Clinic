@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" role="img" aria-label="Photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4F2F8"/><stop offset="1" stop-color="#CFE6F0"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF4F8"/></linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="url(#bg)"/>
+  <circle cx="330" cy="330" r="230" fill="#FFFFFF" opacity=".45"/>
+  <circle cx="540" cy="120" r="60" fill="#FFFFFF" opacity=".35"/>
+  <!-- doctor silhouette -->
+  <path d="M130 760c0-150 80-250 200-250s200 100 200 250Z" fill="url(#coat)"/>
+  <path d="M290 515h80l-40 120Z" fill="#1B2A4A" opacity=".85"/>
+  <path d="M300 510c-50 30-70 90-60 150" fill="none" stroke="#1E8FB5" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="240" cy="668" r="16" fill="#1E8FB5"/>
+  <rect x="300" y="430" width="60" height="90" rx="28" fill="#B98A6B"/>
+  <circle cx="330" cy="370" r="92" fill="#C69676"/>
+  <path d="M238 360c0-70 45-108 92-108s92 38 92 108c-20-40-50-55-92-55s-72 15-92 55Z" fill="#2A2320"/>
+  <!-- label -->
+  <rect x="150" y="70" width="340" height="64" rx="32" fill="#FFFFFF" opacity=".9"/>
+  <text x="320" y="110" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#15708F" letter-spacing="2">PHOTO PLACEHOLDER</text>
+</svg>

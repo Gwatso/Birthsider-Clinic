@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" width="560" height="640" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF5FA"/><stop offset="1" stop-color="#D5ECF5"/></linearGradient>
+  </defs>
+  <rect width="560" height="640" fill="url(#bg)"/>
+  <circle cx="280" cy="300" r="200" fill="#FFFFFF" opacity=".5"/>
+  <path d="M100 640c0-130 75-215 180-215s180 85 180 215Z" fill="#FFFFFF"/>
+  <path d="M245 430h70l-35 105Z" fill="#1E8FB5" opacity=".9"/>
+  <path d="M320 428c40 30 55 85 45 135" fill="none" stroke="#1B2A4A" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="365" cy="570" r="14" fill="#1B2A4A"/>
+  <rect x="252" y="350" width="56" height="84" rx="26" fill="#A87858"/>
+  <circle cx="280" cy="295" r="84" fill="#B5845F"/>
+  <path d="M196 285c0-62 40-96 84-96s84 34 84 96c-18-34-44-48-84-48s-66 14-84 48Z" fill="#1F1A18"/>
+  <rect x="140" y="60" width="280" height="56" rx="28" fill="#FFFFFF" opacity=".9"/>
+  <text x="280" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#15708F" letter-spacing="2">DOCTOR PHOTO</text>
+</svg>
